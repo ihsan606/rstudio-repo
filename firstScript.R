@@ -16,3 +16,9 @@ B
 B["satu","tiga"]
 B[,"dua"]
 B[c("satu","dua"),]
+
+C <- matrix(c(1,3,4,1,2,5),3,2,TRUE)
+C
+D <- matrix(c(1,2,3,4),2,2,TRUE)
+D
+D%%solve(D)
