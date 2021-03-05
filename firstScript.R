@@ -10,6 +10,8 @@ diag(M)
 
 B <- matrix(1:9,3,3,TRUE)
 B
+solve(B) #solve untuk mencari invers matrix
+t(B) # mencari transpose dari matrix
 colnames(B) <- c("satu","dua","tiga")
 rownames(B) <- c("satu","dua","tiga")
 B
