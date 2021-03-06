@@ -1,4 +1,5 @@
-
+# Muhammad Ihsan Syafiul Umam
+# 20523217
 values <- c(1:100)
 G <- matrix(values,10,10,TRUE)
 H <- t(G)
